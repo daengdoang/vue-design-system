@@ -7,16 +7,10 @@
       :class="prop.category"
       v-if="prop.type === 'color'"
     >
-      <div class="swatch" :style="{ backgroundColor: prop.value }"/>
-      <h3>{{prop.name.replace(/_/g, " ").replace(/color/g, "")}}</h3>
-      <span>
-        <em>RGB:</em>
-        {{prop.value}}
-      </span>
-      <span>
-        <em>SCSS:</em>
-        ${{prop.name.replace(/_/g, "-")}}
-      </span>
+      <div class="swatch" :style="{ backgroundColor: prop.value }" />
+      <h3>{{ prop.name.replace(/_/g, " ").replace(/color/g, "") }}</h3>
+      <span> <em>RGB:</em> {{ prop.value }} </span>
+      <span> <em>SCSS:</em> ${{ prop.name.replace(/_/g, "-") }} </span>
     </div>
   </div>
 </template>
@@ -157,6 +151,6 @@ h3 {
 
 <docs>
   ```jsx
-  <color/>
+  <wrapper>I’m an example that will be shown in docs.</wrapper>
   ```
 </docs>

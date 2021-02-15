@@ -5,6 +5,7 @@ You’re looking at Vue Design System’s demo <code>design tokens</code>. Every
 ## Color Palette
 
 ```
+<wrapper>I’m an example that will be shown in docs.</wrapper>
 <color />
 ```
 
